@@ -23,11 +23,11 @@ int main() {
         if(cmd == 'L'){
 
             if(it != List.begin()){
-                it--;
+                --it;
             }
         }else if(cmd == 'R'){
             if(it != List.end()){
-                it++;
+                ++it;
             }
         }else if(cmd == 'D'){
             if(it != List.end()){
